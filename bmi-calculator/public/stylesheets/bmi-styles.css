@@ -1,0 +1,58 @@
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f1;
+    margin: 0;
+    padding-top: 100px;
+}
+
+/* Calculator container */
+.container {
+    background-color: #99c799;
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 28px;
+}
+
+/* Section heading */
+h2 {
+    font-size: 22px;
+}
+
+/* Form rows */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Input labels */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+input {
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Calculate button */
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Result text */
+p {
+    font-size: 18px;
+}
