@@ -1,0 +1,84 @@
+<div class="container feedback-container my-4">
+
+    <!-- Page heading -->
+    <div class="header bg-secondary-subtle rounded-3 p-4 text-center mb-4">
+        <h1>Please provide feedback. You may do so anonymously.</h1>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Instructions column -->
+        <div class="col-12">
+            <h2>Instructions</h2>
+
+            <p>
+                As one of our students, your thoughts,
+                feedback and comments are important to us.
+            </p>
+
+            <p>Please send them using this form.</p>
+
+            <p>
+                If you would like us to follow up with you,
+                include your contact information.
+            </p>
+        </div>
+
+        <!-- Feedback form column -->
+        <div class="col-12">
+            <div class="form-section">
+
+                <form method="POST" action="/submit-feedback">
+
+                    <!-- Name -->
+                    <label class="form-label" for="name">
+                        Name
+                    </label>
+                    <input class="form-control" id="name" type="text" name="name">
+
+                    <!-- Email -->
+                    <label class="form-label" for="email">
+                        Email
+                    </label>
+                    <input class="form-control" id="email" type="email" name="email">
+
+                    <!-- Comments -->
+                    <label class="form-label" for="comments">
+                        Comments
+                    </label>
+                    <textarea class="form-control" id="comments" name="comments" required></textarea>
+
+                    <!-- Current student question -->
+                    <p class="mt-3 mb-2">
+                        Are you a current student?
+                    </p>
+
+                    <div class="form-check">
+                        <input class="form-check-input" id="yes" type="radio" value="yes" name="current-student">
+
+                        <label class="form-check-label" for="yes">
+                            Yes
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" id="no" type="radio" value="no" name="current-student">
+
+                        <label class="form-check-label" for="no">
+                            No
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button class="btn btn-primary mt-4" type="submit">
+                        Submit Feedback
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
