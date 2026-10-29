@@ -57,7 +57,6 @@ router.post('/submit-feedback', function (req, res, next) {
     const formData = req.body;
 
     // Display the submitted form data in the server terminal
-    // Useful for debugging and checking submitted values
     console.log(formData)
 
     // Render the thank_you.hbs template after submission
